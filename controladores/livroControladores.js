@@ -29,7 +29,7 @@ function getLivroPeloId(req, res) {
     }
   } catch (error) {
     res.status(500);
-    res.send(error.emssage);
+    res.send(error.message);
   }
 }
 
